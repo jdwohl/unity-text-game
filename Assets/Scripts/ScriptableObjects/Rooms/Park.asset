@@ -1,0 +1,25 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 327d0db1efb5746f8bc09c67e47bd22c, type: 3}
+  m_Name: Park
+  m_EditorClassIdentifier: 
+  description: You arrive in a tranquil park. It looks just like you remember, besides
+    the white tape outline in the lush grass. (To investigate something, type "examine"
+    and its name)
+  roomName: park
+  exits:
+  - keyString: navigation
+    exitDescription: 
+    valueRoom: {fileID: 11400000, guid: fe59a9841d0754d32922891a3f5ba88b, type: 2}
+  interactableObjectsInRoom:
+  - {fileID: 11400000, guid: 04cef3097c7f3458ca3a9d07cb285480, type: 2}
+  - {fileID: 11400000, guid: fe7e9129c1da746348ead94c15e12abc, type: 2}

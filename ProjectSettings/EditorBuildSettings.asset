@@ -1,0 +1,23 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 0
+    path: Assets/Scenes/SampleScene.unity
+    guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
+    path: Assets/Scenes/Main.unity
+    guid: 431156b5e6de5894aaa309cf8ee5ddeb
+  - enabled: 1
+    path: Assets/Scenes/Logic Grid.unity
+    guid: e55224ddc94dc4d539cf07111733d8ff
+  - enabled: 1
+    path: Assets/Scenes/Evidence.unity
+    guid: b3740308b19784f7bb151e4dcce33fcc
+  - enabled: 0
+    path: Assets/Scenes/NeverUnload.unity
+    guid: 014ccbfabebf048e8935efc2356918a9
+  m_configObjects: {}

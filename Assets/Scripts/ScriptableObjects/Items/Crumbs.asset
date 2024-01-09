@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a402684173e03486984b6c0c694c1545, type: 3}
+  m_Name: Crumbs
+  m_EditorClassIdentifier: 
+  noun: crumbs
+  description: There are a few crumbs under the bed. Could this be relevant to the
+    case?
+  interactions:
+  - inputAction: {fileID: 11400000, guid: 986c30286684f4dbba19ddacc5cc1b4b, type: 2}
+    textResponse: "Now that I'm looking at it up close, these crumbs are blue --
+      that along with their texture indicate that they didn't come from something
+      edible. In fact, they look more like... shards from something. There are only
+      a few small ones at the scene, and they're only in this obscure position under
+      the bed. Could the attacker have missed this when cleaning up? \n(Crumbs added
+      to evidence list)"
+    actionResponse: {fileID: 0}

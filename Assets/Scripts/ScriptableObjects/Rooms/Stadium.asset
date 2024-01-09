@@ -1,0 +1,28 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 327d0db1efb5746f8bc09c67e47bd22c, type: 3}
+  m_Name: Stadium
+  m_EditorClassIdentifier: 
+  description: This stadium is typically home to many sporting events. There was
+    supposed to be one today, in fact -- the stadium's relevance to the cases have
+    put that on hold. The crime scene appears to be the very middle of the stadium,
+    with all of the outside lights pointing to the place where the victim was supposedly
+    killed. It's a bit unsettling... (To investigate something, type "examine" and
+    its name)
+  roomName: stadium
+  exits:
+  - keyString: navigation
+    exitDescription: 
+    valueRoom: {fileID: 11400000, guid: fe59a9841d0754d32922891a3f5ba88b, type: 2}
+  interactableObjectsInRoom:
+  - {fileID: 11400000, guid: 1cd5c0fecdd404f20aae3dd1e82e86fc, type: 2}
+  - {fileID: 11400000, guid: aeee826327de6428ba8344d2a3016866, type: 2}

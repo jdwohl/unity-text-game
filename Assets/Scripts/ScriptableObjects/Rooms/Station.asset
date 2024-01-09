@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 327d0db1efb5746f8bc09c67e47bd22c, type: 3}
+  m_Name: Station
+  m_EditorClassIdentifier: 
+  description: I hadn't been to the station in a while, and time certainly hasn't
+    been kind to it. Once bustling with people, now it feels almost abandoned. No
+    one is here besides the officer guarding the scene. It's not like this is only
+    because of the crime either -- I've heard it's been like this for a while. What
+    happened to this place... (To investigate something, type "examine" and its name)
+  roomName: station
+  exits:
+  - keyString: navigation
+    exitDescription: 
+    valueRoom: {fileID: 11400000, guid: fe59a9841d0754d32922891a3f5ba88b, type: 2}
+  interactableObjectsInRoom:
+  - {fileID: 11400000, guid: 1221447dbcff54308a76db2f6ce0f3b3, type: 2}
+  - {fileID: 11400000, guid: e48ea1f515b674c6b891096fac9c45e9, type: 2}

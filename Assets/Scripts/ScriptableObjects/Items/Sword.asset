@@ -1,0 +1,31 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a402684173e03486984b6c0c694c1545, type: 3}
+  m_Name: Sword
+  m_EditorClassIdentifier: 
+  noun: sword
+  description: A bloody sword leans agains the corner of the hotel room.
+  interactions:
+  - inputAction: {fileID: 11400000, guid: 986c30286684f4dbba19ddacc5cc1b4b, type: 2}
+    textResponse: 'A sword with the hotel victim''s blood that is clearly sharp enough
+      to cause the fatal wound. Could this case get any easier? ...Is what I''d like
+      to say, but this sword is so obviously out-of-place that I have to assume it
+      isn''t the real murder weapon. The blood could easily have been planted after
+      the fact, of course. Though buying a real sword would be a lot of effort for
+      the attacker to go through just to use it as a prop... While examining the
+      sword, the officer tells me that this victim is a bit different from the others
+      in that he has a non-fatal bruise on his head from contact with a flat object.
+      Could that really have been from this sword?
+
+      (Sword added to evidence
+      list)'
+    actionResponse: {fileID: 0}

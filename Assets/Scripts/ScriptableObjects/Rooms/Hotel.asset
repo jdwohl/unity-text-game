@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 327d0db1efb5746f8bc09c67e47bd22c, type: 3}
+  m_Name: Hotel
+  m_EditorClassIdentifier: 
+  description: After arriving at the hotel, you take an elevator up to the 7th floor.
+    You walk into the room and see a chaotic mess -- clothes everywhere, fallen furniture
+    on the floor... What happened here? (To examine something, type "examine" and
+    its name)
+  roomName: hotel
+  exits:
+  - keyString: navigation
+    exitDescription: 
+    valueRoom: {fileID: 11400000, guid: fe59a9841d0754d32922891a3f5ba88b, type: 2}
+  interactableObjectsInRoom:
+  - {fileID: 11400000, guid: 6b2a278d7934048fc8e9bc0530167aa9, type: 2}
+  - {fileID: 11400000, guid: 89e6709f3ff184cf9834c614515bfd6a, type: 2}
+  - {fileID: 11400000, guid: f409490b16d304788ba85e334abff45b, type: 2}

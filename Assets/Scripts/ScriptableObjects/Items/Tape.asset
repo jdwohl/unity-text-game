@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a402684173e03486984b6c0c694c1545, type: 3}
+  m_Name: Tape
+  m_EditorClassIdentifier: 
+  noun: tape
+  description: Something about the tape that shows the outline of the body looks
+    off to you.
+  interactions:
+  - inputAction: {fileID: 11400000, guid: 986c30286684f4dbba19ddacc5cc1b4b, type: 2}
+    textResponse: "Looking more closely at the tape outline, it appears that the
+      victim was laying fully on his stomach when the body was discovered. This combined
+      with the fact that there are no scratches or bruises anywhere else on his body
+      indicates that the victim was not facing his attacker when he died. I would
+      say it's likely that he didn't even realize the attacker was there. \n(Tape
+      added to evidence list)"
+    actionResponse: {fileID: 0}
