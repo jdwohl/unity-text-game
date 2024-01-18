@@ -9,5 +9,4 @@ public class Interaction
     [TextArea]
     public string textResponse;
     public ActionResponse actionResponse;
-
 }

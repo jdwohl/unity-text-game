@@ -17,10 +17,11 @@ MonoBehaviour:
     off to you.
   interactions:
   - inputAction: {fileID: 11400000, guid: 986c30286684f4dbba19ddacc5cc1b4b, type: 2}
-    textResponse: "Looking more closely at the tape outline, it appears that the
+    textResponse: 'Looking more closely at the tape outline, it appears that the
       victim was laying fully on his stomach when the body was discovered. This combined
       with the fact that there are no scratches or bruises anywhere else on his body
       indicates that the victim was not facing his attacker when he died. I would
-      say it's likely that he didn't even realize the attacker was there. \n(Tape
-      added to evidence list)"
+      say it''s likely that he didn''t even realize the attacker was there. '
     actionResponse: {fileID: 0}
+  itemIndex: 12
+  locationIndex: 4

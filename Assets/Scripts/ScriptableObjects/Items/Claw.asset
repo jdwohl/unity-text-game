@@ -16,13 +16,13 @@ MonoBehaviour:
   description: A large claw lays hidden under the tracks.
   interactions:
   - inputAction: {fileID: 11400000, guid: 986c30286684f4dbba19ddacc5cc1b4b, type: 2}
-    textResponse: 'Picking up the claw, it really sets in  just how big it is. I
-      have trouble believing that this could belong to any animal known to man...
-      Since the police hadn''t seen it before I found it, I asked them to investigate
-      it now. It is incredibly sharp -- it could have easily caused the type of wound
+    textResponse: Picking up the claw, it really sets in  just how big it is. I have
+      trouble believing that this could belong to any animal known to man... Since
+      the police hadn't seen it before I found it, I asked them to investigate it
+      now. It is incredibly sharp -- it could have easily caused the type of wound
       seen in all of the victims. Whatever material it is, holding it up to the light
-      doesn''t illuminate anything about it. The light doesn''t seem to reflect off
+      doesn't illuminate anything about it. The light doesn't seem to reflect off
       of it at all either. What in the world...
-
-      (Claw added to evidence list)'
     actionResponse: {fileID: 0}
+  itemIndex: 2
+  locationIndex: 4

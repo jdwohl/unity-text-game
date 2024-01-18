@@ -16,10 +16,12 @@ MonoBehaviour:
   description: One dresser looks especially out of place...
   interactions:
   - inputAction: {fileID: 11400000, guid: 986c30286684f4dbba19ddacc5cc1b4b, type: 2}
-    textResponse: "While a few dressers are missing all of their drawers, the one
+    textResponse: 'While a few dressers are missing all of their drawers, the one
       closest to the TV is only missing one. Looking at the closest drawer on the
       floor, it appears that there are only clothes inside. However, the other drawers
       in the dresser all contain folders and files. None of the drawers on the floor
       have anything other than clothes, and there are no drawers missing. Were there
-      once files in that drawer? \n(Dresser added to evidence list)"
+      once files in that drawer? '
     actionResponse: {fileID: 0}
+  itemIndex: 5
+  locationIndex: -1

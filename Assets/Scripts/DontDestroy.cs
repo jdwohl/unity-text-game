@@ -4,21 +4,15 @@ using UnityEngine;
 
 public class DontDestroy : MonoBehaviour
 {
-
-    bool created = false;
-
-    // Start is called before the first frame update
     void Awake()
     {
-        if (!created)
-        {
-            DontDestroyOnLoad(this.gameObject);
-            created = true;
-        }
+        GameObject[] objs = GameObject.FindGameObjectsWithTag("inventoryManager");
 
-        else
+        if (objs.Length > 1)
         {
             Destroy(this.gameObject);
         }
+
+        DontDestroyOnLoad(this.gameObject);
     }
 }

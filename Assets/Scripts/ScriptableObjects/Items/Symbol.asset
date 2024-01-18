@@ -17,8 +17,9 @@ MonoBehaviour:
     the lake. '
   interactions:
   - inputAction: {fileID: 11400000, guid: 986c30286684f4dbba19ddacc5cc1b4b, type: 2}
-    textResponse: "Getting closer to the symbol, it doesn't look like a word. The
+    textResponse: 'Getting closer to the symbol, it doesn''t look like a word. The
       lines and other shapes connect in the sand to make an overall image that looks...
-      well, satanic. I can't quite describe it. What exactly happened here? \n(Symbol
-      added to evidence list)"
+      well, satanic. I can''t quite describe it. What exactly happened here? '
     actionResponse: {fileID: 0}
+  itemIndex: 10
+  locationIndex: 2

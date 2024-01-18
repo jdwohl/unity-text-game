@@ -18,3 +18,5 @@ MonoBehaviour:
   - inputAction: {fileID: 11400000, guid: 33573315a492f4e7ebcf964941ed9029, type: 2}
     textResponse: What evidence will you present?
     actionResponse: {fileID: 0}
+  itemIndex: -1
+  locationIndex: -1

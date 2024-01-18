@@ -17,7 +17,9 @@ MonoBehaviour:
     is missing though...
   interactions:
   - inputAction: {fileID: 11400000, guid: 986c30286684f4dbba19ddacc5cc1b4b, type: 2}
-    textResponse: "At the table are two cups, along with two sets of utensils. However,
+    textResponse: 'At the table are two cups, along with two sets of utensils. However,
       there is only one plate -- a white, shiny plate with blue edges. Where could
-      the other have gone? \n(Table added to evidence list)"
+      the other have gone? '
     actionResponse: {fileID: 0}
+  itemIndex: 11
+  locationIndex: 1

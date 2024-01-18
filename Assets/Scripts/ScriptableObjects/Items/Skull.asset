@@ -18,3 +18,5 @@ MonoBehaviour:
   - inputAction: {fileID: 11400000, guid: 986c30286684f4dbba19ddacc5cc1b4b, type: 2}
     textResponse: The skull is blackened and charred.
     actionResponse: {fileID: 0}
+  itemIndex: -2
+  locationIndex: -1

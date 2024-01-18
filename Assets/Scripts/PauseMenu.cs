@@ -6,6 +6,12 @@ using UnityEngine.SceneManagement;
 public class PauseMenu : MonoBehaviour
 {
     [SerializeField] GameObject pauseMenu;
+    GameController gameController;
+
+    private void Awake()
+    {
+        
+    }
 
     public void Pause()
     {

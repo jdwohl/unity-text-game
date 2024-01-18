@@ -11,6 +11,8 @@ public class GridSquare : MonoBehaviour
     public Text buttonText;
     public string squareMark;
 
+    InventoryManager inventoryManager;
+
     public string correctEvidence;
     public string explanation;
     public bool greenSquare;
@@ -20,6 +22,11 @@ public class GridSquare : MonoBehaviour
     public int rowNumber;
     public int colNumber;
     public int sectNumber;
+
+    private void Awake()
+    {
+        inventoryManager = FindAnyObjectByType<InventoryManager>();
+    }
 
     public void SetSquare()
     {
@@ -36,33 +43,40 @@ public class GridSquare : MonoBehaviour
         bool correct = false;
 
         string displayString = "Incorrect.";
-        if (evidence == this.correctEvidence)
+
+        if (evidence.ToLower() == "elimination" || inventoryManager.CheckIfNounInInventory(evidence.ToLower()))
         {
-            if(elimination)
+            if (evidence.ToLower() == this.correctEvidence)
             {
-                if(gameController.TestValidRowElimination(this.rowNumber, this.colNumber) || gameController.TestValidColElimination(this.rowNumber, this.colNumber))
+                if (elimination)
+                {
+                    if (gameController.TestValidRowElimination(this.rowNumber, this.colNumber) || gameController.TestValidColElimination(this.rowNumber, this.colNumber))
+                    {
+                        displayString = explanation;
+                        button.interactable = false;
+                        correct = true;
+                    }
+                }
+                else
                 {
                     displayString = explanation;
                     button.interactable = false;
                     correct = true;
                 }
-            }
-            else
-            {
-                displayString = explanation;
-                button.interactable = false;
-                correct = true;
-            }
 
-            if(greenSquare && correct)
-            {
-                gameController.Eliminate(rowNumber, colNumber);
-            }
+                if (greenSquare && correct)
+                {
+                    gameController.Eliminate(rowNumber, colNumber);
+                }
 
-            if (gameController.AllButtonsDisabled())
-            {
-                displayString += "\n\nCongratulations! You win!";
+                if (gameController.AllButtonsDisabled())
+                {
+                    displayString += "\n\nCongratulations! You win!";
+                }
             }
+        } else
+        {
+            displayString = "You have not collected this evidence.";
         }
 
         gameController.logicDisplayText.text = displayString;

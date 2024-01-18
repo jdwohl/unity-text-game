@@ -19,5 +19,7 @@ MonoBehaviour:
     textResponse: Looking more closely at the clothes, you see a strange purple powder
       scattered about. You ask the standby officer what it could be, and he says
       tests were done but it doesn't match anything in the database.  What could
-      it be? (Clothes added to evidence list)
+      it be?
     actionResponse: {fileID: 0}
+  itemIndex: 3
+  locationIndex: -1

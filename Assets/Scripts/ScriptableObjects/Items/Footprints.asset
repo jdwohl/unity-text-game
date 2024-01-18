@@ -17,9 +17,11 @@ MonoBehaviour:
     off about them...
   interactions:
   - inputAction: {fileID: 11400000, guid: 986c30286684f4dbba19ddacc5cc1b4b, type: 2}
-    textResponse: "There are two sets of footprints near the body. One of them clearly
-      matches the victim's shoes, according to the officer here. The other does not.
-      These two sets of footprints appear many times in this area in erratic places
-      -- there appears to have been a struggle between the victim and the attacker.
-      \n(Footprints added to evidence list)"
+    textResponse: 'There are two sets of footprints near the body. One of them clearly
+      matches the victim''s shoes, according to the officer here. The other does
+      not. These two sets of footprints appear many times in this area in erratic
+      places -- there appears to have been a struggle between the victim and the
+      attacker. '
     actionResponse: {fileID: 0}
+  itemIndex: 7
+  locationIndex: 0

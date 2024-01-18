@@ -9,5 +9,7 @@ public class InteractableObject : ScriptableObject
     [TextArea]
     public string description = "Description in room";
     public Interaction[] interactions;
-
+    public int itemIndex;
+    public int locationIndex;
+    // park = 0, hotel = 1, lake = 2, stadium = 3, train station = 4
 }

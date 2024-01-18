@@ -17,11 +17,13 @@ MonoBehaviour:
     near the front row seats...
   interactions:
   - inputAction: {fileID: 11400000, guid: 986c30286684f4dbba19ddacc5cc1b4b, type: 2}
-    textResponse: "The marks on the string of this bow indicate it was fired recently.
+    textResponse: 'The marks on the string of this bow indicate it was fired recently.
       Under a small sheet next to the bow is a bloody arrow -- the officer here says
-      tests were done, and it's the stadium victim's blood. What I heard before I
-      started investigating was that every victim was pierced through the chest by
-      some sharp object -- if this is the case, this arrow must have been fired from
-      a bow to kill whichever victim. A stab wound from this arrow would not pierce
-      the body so cleanly. \n(Bow added to evidence list)"
+      tests were done, and it''s the stadium victim''s blood. What I heard before
+      I started investigating was that every victim was pierced through the chest
+      by some sharp object -- if this is the case, this arrow must have been fired
+      from a bow to kill whichever victim. A stab wound from this arrow would not
+      pierce the body so cleanly. '
     actionResponse: {fileID: 0}
+  itemIndex: 0
+  locationIndex: 3

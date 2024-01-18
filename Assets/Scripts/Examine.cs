@@ -1,3 +1,4 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -12,6 +13,11 @@ public class Examine : InputAction
         if (takeDictionary != null)
         {
             controller.LogStringWithReturn(controller.TestVerbDictionaryWithNoun(takeDictionary, separatedInputWords[0], separatedInputWords[1]));
+
+            if (!controller.inventoryManager.CheckIfNounInInventory(separatedInputWords[1])){
+                controller.inventoryManager.SetInventoryFromNoun(separatedInputWords[1]);
+                controller.LogStringWithReturn(separatedInputWords[1][..1].ToUpper() + separatedInputWords[1][1..] + " added to evidence list.");
+            }
         }
     }
 }

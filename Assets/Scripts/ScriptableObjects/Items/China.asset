@@ -16,9 +16,11 @@ MonoBehaviour:
   description: Broken china sits in the sand, half buried...
   interactions:
   - inputAction: {fileID: 11400000, guid: 986c30286684f4dbba19ddacc5cc1b4b, type: 2}
-    textResponse: "Buried in the sand are pieces of broken china. The sharpest edge
-      is stained red with  blood (the lake victim's, according to the officer) while
+    textResponse: 'Buried in the sand are pieces of broken china. The sharpest edge
+      is stained red with  blood (the lake victim''s, according to the officer) while
       the edges on the outside of the original plate are blue. The rest is white.
       The bloodstained section definitely looks sharp enough to cause this wound
-      but... why would it be here, poorly buried? \n(China added to evidence list)"
+      but... why would it be here, poorly buried? '
     actionResponse: {fileID: 0}
+  itemIndex: 1
+  locationIndex: 2

@@ -12,11 +12,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 327d0db1efb5746f8bc09c67e47bd22c, type: 3}
   m_Name: Station
   m_EditorClassIdentifier: 
-  description: I hadn't been to the station in a while, and time certainly hasn't
-    been kind to it. Once bustling with people, now it feels almost abandoned. No
-    one is here besides the officer guarding the scene. It's not like this is only
-    because of the crime either -- I've heard it's been like this for a while. What
-    happened to this place... (To investigate something, type "examine" and its name)
+  description: I hadn't been to the train station in a while, and time certainly
+    hasn't been kind to it. Once bustling with people, now it feels almost abandoned.
+    No one is here besides the officer guarding the scene. It's not like this is
+    only because of the crime either -- I've heard it's been like this for a while.
+    What happened to this place... (To investigate something, type "examine" and
+    its name)
   roomName: station
   exits:
   - keyString: navigation

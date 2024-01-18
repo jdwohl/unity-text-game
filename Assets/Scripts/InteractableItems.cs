@@ -99,7 +99,7 @@ public class InteractableItems : MonoBehaviour
         {
             nounsInInventory.Add(noun);
             AddActionResponsesToUseDictionary();
-            nounsInRoom.Remove(noun);
+            // nounsInRoom.Remove(noun);
             return takeDictionary;
         }
         else

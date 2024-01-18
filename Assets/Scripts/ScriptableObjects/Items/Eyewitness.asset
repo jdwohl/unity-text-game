@@ -17,13 +17,15 @@ MonoBehaviour:
     next to the officer.
   interactions:
   - inputAction: {fileID: 11400000, guid: 986c30286684f4dbba19ddacc5cc1b4b, type: 2}
-    textResponse: "The eyewitness appears to have seen the attack take place in the
+    textResponse: 'The eyewitness appears to have seen the attack take place in the
       center of the stadium. She believes that the attacker thought that the victim
       was the only other person in the stadium, as the witness is a member of the
-      stadium staff that wasn't supposed to be here yesterday. Her angle of viewing
-      the scene combined with how far away she was meant that she didn't see much
+      stadium staff that wasn''t supposed to be here yesterday. Her angle of viewing
+      the scene combined with how far away she was meant that she didn''t see much
       detail, but she says she saw the attacker running at the victim, stabbing him
-      with something from behind. She saw the weapon protrude from the victim's chest,
-      reflecting the light from the stadium, but she couldn't tell what it was. \n(Eyewitness
-      added to evidence list)"
+      with something from behind. She saw the weapon protrude from the victim''s
+      chest, reflecting the light from the stadium, but she couldn''t tell what it
+      was. '
     actionResponse: {fileID: 0}
+  itemIndex: 6
+  locationIndex: 3

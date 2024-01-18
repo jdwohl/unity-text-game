@@ -17,10 +17,11 @@ MonoBehaviour:
     case?
   interactions:
   - inputAction: {fileID: 11400000, guid: 986c30286684f4dbba19ddacc5cc1b4b, type: 2}
-    textResponse: "Now that I'm looking at it up close, these crumbs are blue --
-      that along with their texture indicate that they didn't come from something
+    textResponse: 'Now that I''m looking at it up close, these crumbs are blue --
+      that along with their texture indicate that they didn''t come from something
       edible. In fact, they look more like... shards from something. There are only
-      a few small ones at the scene, and they're only in this obscure position under
-      the bed. Could the attacker have missed this when cleaning up? \n(Crumbs added
-      to evidence list)"
+      a few small ones at the scene, and they''re only in this obscure position under
+      the bed. Could the attacker have missed this when cleaning up? '
     actionResponse: {fileID: 0}
+  itemIndex: 4
+  locationIndex: 1

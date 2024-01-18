@@ -16,11 +16,13 @@ MonoBehaviour:
   description: A knife is hidden within the grass far away from the tape.
   interactions:
   - inputAction: {fileID: 11400000, guid: 986c30286684f4dbba19ddacc5cc1b4b, type: 2}
-    textResponse: "The knife is clean, but spraying luminol shows traces of the park
-      victim's blood. Clearly there was some effort spent in hiding its relation
+    textResponse: 'The knife is clean, but spraying luminol shows traces of the park
+      victim''s blood. Clearly there was some effort spent in hiding its relation
       to the crime, so why is it so close to the body? Something also seems off about
       this part here... Aha. Playing around with the intricacies of the weapon opened
-      a secret compartment. Unfortunately, there's nothing inside. Only a bit of
-      dirt. Actually, upon closer inspection it appears to be sand. ...There's no
-      sand at this park. \n(Knife added to evidence list)"
+      a secret compartment. Unfortunately, there''s nothing inside. Only a bit of
+      dirt. Actually, upon closer inspection it appears to be sand. ...There''s no
+      sand at this park. '
     actionResponse: {fileID: 0}
+  itemIndex: 8
+  locationIndex: 0

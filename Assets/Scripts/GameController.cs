@@ -1,7 +1,9 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.UIElements;
 
 public class GameController : MonoBehaviour
 {
@@ -15,6 +17,8 @@ public class GameController : MonoBehaviour
     public GameObject logicTextPanel;
     public Text logicQuestionText;
 
+    public InventoryManager inventoryManager;
+
     public int currentSquare = -1;
 
     private string input;
@@ -25,7 +29,6 @@ public class GameController : MonoBehaviour
  
     List<string> actionLog = new List<string>();
 
-    // Start is called before the first frame update
     void Awake()
     {
         interactableItems = GetComponent<InteractableItems>();
@@ -36,8 +39,14 @@ public class GameController : MonoBehaviour
 
     void Start()
     {
+        SetInventoryManager();
         DisplayRoomText();
         DisplayLoggedText();
+    }
+
+    void SetInventoryManager()
+    {
+        inventoryManager = FindAnyObjectByType<InventoryManager>();
     }
 
     public void DisplayLoggedText()
@@ -49,6 +58,11 @@ public class GameController : MonoBehaviour
 
     public void DisplayRoomText()
     {
+        if (inventoryManager == null)
+        {
+            SetInventoryManager();
+        }
+
         ClearCollectionsForNewRoom();
 
         UnpackRoom();
